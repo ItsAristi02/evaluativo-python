@@ -24,6 +24,7 @@ while opcion != 5:
     agrupaciones.append(agrupacion)
 
   elif opcion == 2:
+    print("\n**** Agrupaciones faltantes****")
     for agrup in agrupaciones:
       if agrup["estado"] == False:
         print(f"La agrupacion {agrup} no se ha presentado")
@@ -34,11 +35,14 @@ while opcion != 5:
         nombre = agrup["nombre"]
         print(f"Se cambiara la hora de la agrupacion {nombre}")
         agrup["horaDePresentacion"] = input(f"Ingrese la nueva hora de presentacion: ")
+        print(f"\nSe ha actualizado correctamente la hora de la agrupación {nombre}")
 
   elif opcion == 4:
     for agrup in agrupaciones:
       if agrup["estado"] == False:
+        nombre = agrup["nombre"]
         agrupaciones.remove(agrup)
+        print(f"Se ha retirado correctamente la agrupacion {nombre}")
   elif opcion == 5:
         print("Programa Finalizado")  
   else:
