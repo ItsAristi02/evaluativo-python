@@ -1,5 +1,5 @@
 # evaluativo-python
 Trabajo elaborado por: 
-Didier Alexander Galvis Galvis 
-Santiago Gaviria Zapata 
-María Alejandra Aristizábal Flórez
+### Didier Alexander Galvis Galvis
+### María Alejandra Aristizábal Flórez 
+### Santiago Gaviria Zapata 
